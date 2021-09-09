@@ -14,6 +14,7 @@ size=s;}
 }
 ```
 
-
-			
+### 关于reference variable。
+类似于c或者c++的指针，将对象的地址存在stack里边，对象其实是存在heap里边。这样能够减少stack的内存占用，防止stack overflow。
+（在座的各位都有车，把车停在停车库，而不是把车停在教室）
 			
