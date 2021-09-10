@@ -22,7 +22,7 @@ size=s;}
 each byte has 8 bites.int has 4 bytes
 ```
 int arr[3];
-arr[0]=3; //int 3 ->(24个0，00000011） arr's address =first byte in (int 3) equal 0000
+arr[0]=3; //int 3 ->(24个0，00000011） arr's address =first byte in (int 3) equal 0000 0000 ,transform to  hexadecimal not binary. //需要修正
 ```
 
 
