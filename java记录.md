@@ -18,3 +18,11 @@ size=s;}
 类似于c或者c++的指针，将对象的地址存在stack里边，对象其实是存在heap里边。这样能够减少stack的内存占用，防止stack overflow。
 （在座的各位都有车，把车停在停车库，而不是把车停在教室）
 			
+### every single byte in your memory has an address,like array
+each byte has 8 bites.int has 4 bytes
+```
+int arr[3];
+arr[0]=3; //int 3 ->(24个0，00000011） arr's address =first byte in (int 3) equal 0000
+```
+
+
